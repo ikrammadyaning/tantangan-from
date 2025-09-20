@@ -1,0 +1,68 @@
+*{
+font-family: "Segoe UI";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form{
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 8px 1px rgb(75, 75, 75);
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label{
+    font-size: 1rem;
+    /* satuan di css 1rem = 16px */
+    color: #333;
+}
+
+form input{
+    width: auto;
+    padding: 14px;
+    border-radius: 12px;
+    border: 1px solid rgb(194, 193, 193);
+}
+
+input:focus{
+    border: 1px dashed red;
+    outline: none;
+    border-width: 2px;
+}
+
+button{
+    padding: 12px;
+    margin-top: 25px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out
+}
+
+button:hover{
+    background-color: red;
+}
+
+select{
+    padding: 12px;
+    border-radius: 12px;
+}
+
+select:focus{
+    border: 1px solid red;
+}
